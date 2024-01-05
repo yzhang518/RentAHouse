@@ -1,0 +1,116 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Scheudule A Tour</title>
+        <link rel="stylesheet" type="text/css" href="css/subpage_1.css"> 
+    </head>
+    
+    <body class="subpage_1">
+        <br>
+        <header>
+            <ul class="menuBar">
+                <li class="subLink"><a href="https://yzhang518.github.io">Home</a></li>
+                <li class="subLink"><a href="https://yzhang518.github.io/schedule_a_visit.html">Schedule A Visit</a></li>
+                <li class="subLink"><a href="https://yzhang518.github.io/floorplans.html">House Plans</a></li>
+                <li class="subLink"><a href="https://yzhang518.github.io/resources.html">Resources</a></li>            </ul>
+            </ul>
+        </header>
+        
+        <div style="background-image: url('img/background.jpg');">
+            <h1>Scheudule A Tour</h1>
+        </div>
+        
+        
+        <div class="form">
+            
+            <form id="tourSchedule" target = "_blank" action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post">
+
+                <h2>Agents</h2>
+                <div class="agents">
+                    <div class="agents_left">
+                        <input id="agent_1" type="radio" name="agent">
+                        <img id="img_1" width="20%">
+                        <ul class="agent_info">
+                            <li id="name_1"></li>
+                            <li id="phone_1"></li>
+                            <li id="email_1"></li>
+                        </ul>
+                        <br><br>
+                        <input id="agent_2" type="radio" name="agent">
+                            <img id="img_2" width="20%">
+                            <ul class="agent_info">
+                                <li id="name_2"></li>
+                                <li id="phone_2"></li>
+                                <li id="email_2"></li>
+                            </ul>
+                            <br><br>
+                    </div>
+                    
+                    <div class="agents_right">
+                        
+                        <input id="agent_3" type="radio" name="agent">
+                            <img id="img_3" width="20%">
+                            <ul class="agent_info">
+                                <li id="name_3"></li>
+                                <li id="phone_3"></li>
+                                <li id="email_3"></li>
+                            </ul>
+                            <br><br>
+                        <input id="agent_4" type="radio" name="agent">
+                            <img id="img_4" width="20%">
+                            <ul class="agent_info">
+                                <li id="name_4"></li>
+                                <li id="phone_4"></li>
+                                <li id="email_4"></li>
+                            </ul>
+                            <br><br>
+                    </div>
+                    
+                                        
+                </div>
+
+                <h2>Your Info</h2>
+                <div class="client_info">
+                    <div class="client_left">
+                        <br><br>
+                        <label for="name">Name</label>
+                        <input type="text" name="name">
+                        <br><br>
+                        <label for="phone">Phone Number</label>
+                        <input type="text" name="phone">
+                        <br><br>
+                        <label for="email">Email</label>
+                        <input type="text" name="email">
+                    </div>
+                    
+                    <div class="client_right">
+                        <p style="font-size: 20px"> Please let us know if you have any special requests.</p>
+                        <textarea rows="4" cols="50" name="comment" form="tourSchedule">Note</textarea>
+                    </div>
+                    
+                </div>
+
+                <h2>Privacy Consent</h2>
+                    
+                    <p class="privacy">
+                        Privacy of your personal information is an important part of our office. We understand the importance of protecting your personal information. We are committed to collecting, using and disclosing your personal information responsibly. We also try to be as open and transparent as possible about the way we handle your personal information. 
+                        We ensure that only necessary information is collected about you; we only share your information with your consent; storage, retention and destruction of you personal information complies with existing legislation, and privacy protection protocols, our privacy protocols comply with privacy legislation standards of our regulatory body and the law.
+                    </p>
+                <br><br>
+                <br><br>
+                <br><br>
+                <input onclick="window.location.href = 'redirect.html';" type="submit" id="submit" value="Schedule">          
+
+            </form>
+        
+            <br> 
+             <p>Img Copyright Instagram @toyboyfan Disney Characters in real life</p>        
+        </div>
+ 
+ 
+                     
+        <script src="js/subpage_1_script.js"></script>
+    </body>
+
+</html>

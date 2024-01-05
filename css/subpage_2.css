@@ -1,0 +1,76 @@
+.subpage_2 {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: lightgray;
+}
+
+.menuBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgray;
+}
+
+.subLink {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding:14px 16px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 60px;
+    color: darkblue;
+}
+
+
+table{
+    border-style: dotted;
+    border: "1";
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+th{
+    text-align: center;
+    font: 40px;
+    height: 60px;
+    color: cadetblue;
+}
+
+td{
+    border-style:none;
+    text-align: center;
+    font-size: 30px;
+}
+
+input[type=checkbox]{
+	display: none;
+}
+
+.container img {
+	margin: 50px;
+	width: 200px;
+	height: 200px;	
+	transition: transform 0.25s ease;
+	cursor: zoom-in;
+}
+
+input[type=checkbox]:checked ~ label > img {
+	transform: scale(2.1);
+	cursor: zoom-out;
+}

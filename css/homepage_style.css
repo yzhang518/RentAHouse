@@ -1,0 +1,91 @@
+.homePage {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: lightgray;
+}
+
+header,
+footor {
+    flex: 1;
+}
+
+.slideShow {
+    display: flex;
+    flex: 1;
+}
+
+.mySlides {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.slides {    
+    width: 75%;
+}
+
+.slide_btns {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 60px;
+    color: darkblue;
+}
+
+.slide_nav, .slide_aside {
+    display: flex;
+    flex: 0 0 12em;
+    align-items: center;
+}
+
+.slide_nav {
+    order: -1;
+}
+
+.menuBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgray;
+}
+
+.subLink {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding:14px 16px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+#aboutUs {
+    position: static;
+    background-color: green;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#info {
+    position: static;
+    list-style-type: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0 auto;
+}
+

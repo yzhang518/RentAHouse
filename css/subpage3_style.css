@@ -1,0 +1,65 @@
+.subpage_3 {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: lightgray;
+    justify-content: center;
+}
+
+header {
+    flex: 1;
+}
+
+.menuBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgray;
+}
+
+.subLink {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding:14px 16px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+h1{
+    display: flex;
+    margin-left: 10%;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 50px;
+    color: darkred;
+}
+
+h2{
+    display: flex;
+    margin-left: 30%;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 40px;
+    color: darkblue;
+}
+
+.direction, .download_forms, .facebook, .video {
+    margin-left: 35%;
+}
+
+
+
+#aboutUs {
+    position: static;
+    text-align: center;
+    color: azure;
+    font-size: 18px;
+    margin: 0 auto;
+    height: 50px;
+    background-color: darkslategray;
+}
